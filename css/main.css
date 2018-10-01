@@ -39,6 +39,26 @@
       background-position: center;
       background-repeat: no-repeat; }
 
+.carte-bg {
+  background-image: url("../Img/burger-carte.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 180px 0; }
+  .carte-bg .container .row div h2 {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 15px; }
+  .carte-bg .container .row div p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(253, 208, 0, 0.6);
+    display: inline-block;
+    padding: 15px; }
+
 footer {
   color: white;
   padding-top: 30px; }
