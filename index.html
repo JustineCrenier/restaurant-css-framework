@@ -16,14 +16,143 @@
   <body>
 
     <!-- Navigation -->
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Best.Burger</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pages/carte.html">Carte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- Hero -->
+    <div class="jumbotron hero-bg">
+      <h1 class="display-2">Best.Burger</h1>
+      <p class="lead">Les meilleures Burgers 100% pure boeuf sont à découvrir dans nos restaurants.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Découvrez notre carte</a>
+      </p>
+    </div>
 
     <!-- News & promotions -->
+    <div class="container">
+      <div class="row">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="Img/new-burger.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Notre dernier burger</h5>
+              <p class="card-text">Découvre notre nouveau burger dans un de nos restaurants.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Dernière mise à jour il y a 10min</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="Img/best-burger.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Concours menu gratuit</h5>
+              <p class="card-text">Participe au concours sur notre page facebook et remporte un menu pour 2 dans un de nos restaurants.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Dernière mise à jour il y a 45min</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="Img/new-resto.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nouveau restaurant à Charleroi</h5>
+              <p class="card-text">Notre chaine s'aggrandit et ouvre à Charleroi, venez nombreux à notre avant première ce 5/10.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Dernière mise à jour il y a 1j</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Who we are -->
 
+    <div class="container whoweare">
+      <div class="row first">
+        <div class="col-4 bg-img"></div>
+        <div class="col-8 d-flex align-items-center">
+          <div class="row">
+            <section class="col-12"><h2>Nos restaurants</h2></section>
+            <div class="col-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consequatur quae eveniet similique necessitatibus, reiciendis vero quisquam, qui ab sint dolore quos error officia, molestiae excepturi vel! Nostrum voluptas, dolores.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consequatur quae eveniet similique necessitatibus, reiciendis vero quisquam, qui ab sint dolore quos error officia, molestiae excepturi vel! Nostrum voluptas, dolores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Footer -->
+    <footer class="section footer-classic context-dark bg-dark">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html">Best.Burger</a>
+                <p>Les meilleures Burgers 100% pure boeuf sont à découvrir dans nos restaurants.</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>. </span><span>All Rights Reserved.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contact</h5>
+              <dl class="contact-list">
+                <dt>Adresse:</dt>
+                <dd>23 Rue de Natashaa, 4000 Liège</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Adresse:</dt>
+                <dd>32 Rue de Elizabethh, 6032 Charleroi</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Téléphones:</dt>
+                <dd>+32 0123456789 <span>or</span>+32 0123456790
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Navigation</h5>
+              <ul class="nav-list">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Carte</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+      </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

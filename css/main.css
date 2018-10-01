@@ -1,0 +1,50 @@
+.hero-bg {
+  text-align: center;
+  background-image: url("../Img/hero-restaurant.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0; }
+  .hero-bg h1, .hero-bg p:nth-child(2) {
+    color: white;
+    font-weight: bold; }
+  .hero-bg p:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 15px; }
+
+.whoweare {
+  margin: 30px auto; }
+  .whoweare .row.first {
+    height: 400px; }
+    .whoweare .row.first div.bg-img {
+      background-image: url("../Img/promo1.jpeg");
+      background-position: center;
+      background-repeat: no-repeat; }
+
+footer {
+  color: white;
+  padding-top: 30px; }
+  footer .container .row-30 div div .brand {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold; }
+  footer .nav-list {
+    list-style: none;
+    padding: 0; }
+    footer .nav-list li a {
+      color: white; }
+  footer .social-container {
+    margin-top: 30px; }
+    footer .social-container div.col {
+      border: 1px solid grey;
+      padding: 15px;
+      text-align: center; }
+      footer .social-container div.col:hover {
+        background-color: #272b30;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      footer .social-container div.col a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase; }
