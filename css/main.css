@@ -1,3 +1,6 @@
+.navbar-brand span {
+  color: #fdd000; }
+
 .hero-bg {
   text-align: center;
   background-image: url("../Img/hero-restaurant.jpg");
@@ -7,10 +10,25 @@
   .hero-bg h1, .hero-bg p:nth-child(2) {
     color: white;
     font-weight: bold; }
+  .hero-bg h1 span {
+    color: #fdd000; }
   .hero-bg p:nth-child(2) {
     background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
     padding: 15px; }
+  .hero-bg p.lead a {
+    background-color: #fdd000;
+    color: black;
+    border: 1px solid #fdd000; }
+
+.promo .row .card-deck .card-body {
+  background-color: #343a40;
+  color: white; }
+  .promo .row .card-deck .card-body .card-title {
+    color: #fdd000; }
+
+.promo .row .card-deck .card-footer {
+  background-color: #2a2e33; }
 
 .whoweare {
   margin: 30px auto; }
@@ -28,6 +46,15 @@ footer {
     color: white;
     font-size: 1.5em;
     font-weight: bold; }
+    footer .container .row-30 div div .brand span {
+      color: #fdd000; }
+  footer .container .row-30 div div p:nth-child(2) {
+    margin-top: 30px; }
+    footer .container .row-30 div div p:nth-child(2) span {
+      color: #fdd000; }
+  footer .container .row-30 div.brdr {
+    border-left: 1px solid #fdd000;
+    border-right: 1px solid #fdd000; }
   footer .nav-list {
     list-style: none;
     padding: 0; }
@@ -36,15 +63,26 @@ footer {
   footer .social-container {
     margin-top: 30px; }
     footer .social-container div.col {
-      border: 1px solid grey;
       padding: 15px;
-      text-align: center; }
+      text-align: center;
+      background-color: #2a2e33;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
       footer .social-container div.col:hover {
-        background-color: #272b30;
+        background-color: #fdd000;
         -webkit-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease; }
+        footer .social-container div.col:hover a {
+          color: black;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
       footer .social-container div.col a {
         color: white;
         text-decoration: none;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
