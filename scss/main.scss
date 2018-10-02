@@ -243,6 +243,29 @@
 	}
 }
 
+//CONTACT
+
+.carte-bg.contact{
+	padding: 120px 0;
+}
+
+form.container{
+	margin: 50px auto;
+	.row{
+		div{
+			.btn-primary{
+				background-color: $first-color;
+				border-color: $first-color;
+				padding: 10px 15px;
+				font-size: 1.3em;
+				i{
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+
 //FOOTER
 footer{
 	color: white;

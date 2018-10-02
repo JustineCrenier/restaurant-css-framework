@@ -136,6 +136,19 @@
   margin-right: 15px;
   color: #fdd000; }
 
+.carte-bg.contact {
+  padding: 120px 0; }
+
+form.container {
+  margin: 50px auto; }
+  form.container .row div .btn-primary {
+    background-color: #fdd000;
+    border-color: #fdd000;
+    padding: 10px 15px;
+    font-size: 1.3em; }
+    form.container .row div .btn-primary i {
+      margin-left: 10px; }
+
 footer {
   color: white;
   padding-top: 30px; }
