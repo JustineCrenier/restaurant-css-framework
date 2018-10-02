@@ -143,6 +143,46 @@
 	}
 }
 
+//PHOTOS GALLERY
+
+.gallery{
+	margin: 50px auto;
+	.row{
+		div{
+			.row{
+				div{
+					margin-bottom: 30px;
+					img{
+						display: block;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+//PHOTOS PAGINATION
+.pagination1{
+	.row{
+		nav{
+			ul{
+				li{
+					.page-link{
+						background-color: $first-color;
+						color: black;
+						border-color: $first-color;
+					}
+					.page-link.active{
+						background-color: black;
+						color: $first-color;
+					}
+				}
+			}
+		}
+	}
+}
+
 //FOOTER
 footer{
 	color: white;
