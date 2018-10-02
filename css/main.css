@@ -59,6 +59,26 @@
     display: inline-block;
     padding: 15px; }
 
+.menu {
+  margin: 50px auto; }
+  .menu .row div h2 {
+    margin-bottom: 30px; }
+  .menu .row div div .list-group-item.active {
+    background-color: #fdd000;
+    border-color: #fdd000; }
+    .menu .row div div .list-group-item.active .badge-primary {
+      background-color: black;
+      color: white; }
+  .menu .row div div .list-group-item .badge-primary {
+    background-color: #fdd000;
+    color: black; }
+  .menu .row div .tab-content .tab-pane p:nth-child(2) {
+    background-color: #fdd000;
+    padding: 10px 15px;
+    display: inline-block; }
+  .menu .row div .tab-content .tab-pane p:nth-child(4) {
+    font-size: 0.8em; }
+
 footer {
   color: white;
   padding-top: 30px; }

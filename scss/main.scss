@@ -102,6 +102,47 @@
 	}
 }
 
+//CARTE MENU
+.menu{
+	margin: 50px auto;
+	.row{
+		div{
+			h2{
+				margin-bottom: 30px;
+			}
+			div{
+				.list-group-item.active{
+					background-color: $first-color;
+					border-color: $first-color;
+
+					.badge-primary{
+						background-color: black;
+						color: white;
+					}
+				}
+				.list-group-item{
+					.badge-primary{
+						background-color: $first-color;
+						color: black;
+					}
+				}
+			}
+			.tab-content{
+				.tab-pane{
+					p:nth-child(2){
+						background-color: $first-color;
+						padding: 10px 15px;
+						display: inline-block;
+					}
+					p:nth-child(4){
+						font-size: 0.8em;
+					}
+				}
+			}
+		}
+	}
+}
+
 //FOOTER
 footer{
 	color: white;
