@@ -183,6 +183,66 @@
 	}
 }
 
+//RESTO IMAGE
+.resto-bg{
+	background-image: url("../Img/hero-restaurant.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 120px 0;
+	.container{
+		.row{
+			div{
+				h2{
+					color: white;
+					text-align: center;
+					background-color: rgba(0, 0, 0, 0.6);
+					display: inline-block;
+					padding: 15px;
+				}
+				p{
+					color: white;
+					font-size: 1.5em;
+					font-weight: bold;
+					background-color: rgba(253, 208, 0, 0.6);
+					display: inline-block;
+					padding: 15px;
+				}
+			}
+		}
+	}
+}
+
+//NOS RESTOS
+.nosrestos{
+	padding: 50px 0;
+
+	.brdr{
+		border-right: 2px solid $first-color;
+	}
+}
+
+//RESTO MAP
+.mapouter{
+	text-align: right;
+	height: 250px;
+	width: 450px;
+	margin-bottom: 30px;
+	.gmap_canvas{
+		overflow: hidden;
+		background: none!important;
+		height: 250px;
+		width: 450px;
+	}
+}
+
+.nosrestos{
+	i{
+		margin-right: 15px;
+		color: $first-color;
+	}
+}
+
 //FOOTER
 footer{
 	color: white;
