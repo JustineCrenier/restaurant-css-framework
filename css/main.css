@@ -10,6 +10,9 @@
   .hero-bg h1, .hero-bg p:nth-child(2) {
     color: white;
     font-weight: bold; }
+  @media (max-width: 768px) {
+    .hero-bg h1 {
+      font-size: 3em; } }
   .hero-bg h1 span {
     color: #fdd000; }
   .hero-bg p:nth-child(2) {
@@ -34,10 +37,17 @@
   margin: 30px auto; }
   .whoweare .row.first {
     height: 400px; }
+    @media (max-width: 768px) {
+      .whoweare .row.first {
+        height: inherit; } }
     .whoweare .row.first div.bg-img {
       background-image: url("../Img/promo1.jpeg");
       background-position: center;
       background-repeat: no-repeat; }
+      @media (max-width: 768px) {
+        .whoweare .row.first div.bg-img {
+          height: 300px;
+          margin-bottom: 30px; } }
 
 .carte-bg {
   background-image: url("../Img/burger-carte.jpg");
@@ -45,6 +55,9 @@
   background-position: center;
   background-size: cover;
   padding: 180px 0; }
+  @media (max-width: 768px) {
+    .carte-bg {
+      padding: 100px 0; } }
   .carte-bg .container .row div h2 {
     color: white;
     text-align: center;
@@ -61,6 +74,9 @@
 
 .menu {
   margin: 50px auto; }
+  @media (max-width: 768px) {
+    .menu .row div.menu-content {
+      margin-top: 30px; } }
   .menu .row div h2 {
     margin-bottom: 30px; }
   .menu .row div div .list-group-item.active {
@@ -81,6 +97,9 @@
 
 .gallery {
   margin: 50px auto; }
+  @media (max-width: 768px) {
+    .gallery {
+      margin: 50px auto 15px auto; } }
   .gallery .row div .row div {
     margin-bottom: 30px; }
     .gallery .row div .row div img {
@@ -118,19 +137,38 @@
 
 .nosrestos {
   padding: 50px 0; }
+  @media (max-width: 768px) {
+    .nosrestos .row.first {
+      margin: 0 auto; } }
   .nosrestos .brdr {
     border-right: 2px solid #fdd000; }
+    @media (max-width: 768px) {
+      .nosrestos .brdr {
+        margin-bottom: 30px; } }
 
 .mapouter {
   text-align: right;
   height: 250px;
   width: 450px;
+  margin-right: 0;
   margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    .mapouter {
+      width: 300px; } }
   .mapouter .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 250px;
     width: 450px; }
+    @media (max-width: 768px) {
+      .mapouter .gmap_canvas {
+        width: 300px; } }
+    .mapouter .gmap_canvas iframe {
+      width: 450px;
+      height: 250px; }
+      @media (max-width: 768px) {
+        .mapouter .gmap_canvas iframe {
+          width: 300px; } }
 
 .nosrestos i {
   margin-right: 15px;
