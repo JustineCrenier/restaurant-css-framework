@@ -1,6 +1,9 @@
 .navbar-brand span {
   color: #fdd000; }
 
+.navbar-collapse ul li.nav-item a.nav-link:hover {
+  color: #fdd000; }
+
 .hero-bg {
   text-align: center;
   background-image: url("../Img/hero-restaurant.jpg");
@@ -22,16 +25,27 @@
   .hero-bg p.lead a {
     background-color: #fdd000;
     color: black;
-    border: 1px solid #fdd000; }
+    border: 1px solid #fdd000;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .hero-bg p.lead a:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
 
-.promo .row .card-deck .card-body {
-  background-color: #343a40;
-  color: white; }
-  .promo .row .card-deck .card-body .card-title {
-    color: #fdd000; }
-
-.promo .row .card-deck .card-footer {
-  background-color: #2a2e33; }
+.promo .card-deck div .card {
+  height: 450px; }
+  .promo .card-deck div .card .card-body {
+    background-color: #343a40;
+    color: white; }
+    .promo .card-deck div .card .card-body .card-title {
+      color: #fdd000; }
+  .promo .card-deck div .card .card-footer {
+    background-color: #2a2e33; }
 
 .whoweare {
   margin: 30px auto; }
@@ -85,9 +99,18 @@
     .menu .row div div .list-group-item.active .badge-primary {
       background-color: black;
       color: white; }
-  .menu .row div div .list-group-item .badge-primary {
-    background-color: #fdd000;
-    color: black; }
+  .menu .row div div .list-group-item {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .menu .row div div .list-group-item:hover {
+      padding-left: 35px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .menu .row div div .list-group-item .badge-primary {
+      background-color: #fdd000;
+      color: black; }
   .menu .row div .tab-content .tab-pane p:nth-child(2) {
     background-color: #fdd000;
     padding: 10px 15px;
@@ -109,7 +132,16 @@
 .pagination1 .row nav ul li .page-link {
   background-color: #fdd000;
   color: black;
-  border-color: #fdd000; }
+  border-color: #fdd000;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .pagination1 .row nav ul li .page-link:hover {
+    background-color: black;
+    color: #fdd000;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
 
 .pagination1 .row nav ul li .page-link.active {
   background-color: black;
@@ -184,6 +216,13 @@ form.container {
     border-color: #fdd000;
     padding: 10px 15px;
     font-size: 1.3em; }
+    form.container .row div .btn-primary:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
     form.container .row div .btn-primary i {
       margin-left: 10px; }
 
